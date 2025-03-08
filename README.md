@@ -1,4 +1,4 @@
-###Program Information:
+### Program Information:
 This C++ program reads data from ARFF files, stores them, and constructs a decision tree using the ID3 
 algorithm. The program then prints the decision tree and provides a performance summary that includes 
 the accuracy of the decision tree based on the input data.
@@ -13,13 +13,13 @@ This program supports three ARFF files:
 3. weather.nominal.arff - Contains weather data to decide whether to play outside.
 
 
-###Features:
+### Features:
 - Reads ARFF files and stores attribute and data information.
 - Builds a decision tree using the ID3 algorithm.
 - Prints the decision tree in a readable format with '|' symbols for branching.
 - Provides a performance summary including the accuracy of the tree.
 
-###Limitations:
+### Limitations:
 - No separate test dataset is available, so the model's generalization ability cannot be evaluated.
 - The model is likely overfitting the training data, as it has memorized the training examples.
 
